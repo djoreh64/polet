@@ -1,0 +1,65 @@
+.plane-game-first-page {
+	display: flex;
+	flex-direction: column;
+	overflow-y: auto;
+}
+
+.plane-game-first-page__wins {
+	margin-bottom: 16px;
+	margin-top: 72px;
+	position: relative;
+}
+
+.plane-game-first-page__wins-title {
+	font-family: var(--font-rubik);
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 1.2em;
+	color: var(--color-grey-100);
+}
+
+.plane-game-first-page__wins-list {
+	margin-top: 12px;
+	overflow: hidden;
+	min-height: 82px;
+}
+
+.plane-game-first-page__wins-container {
+	display: flex;
+	gap: 8px;
+}
+
+.plane-game-first-page__slide {
+	flex: 0 0 auto;
+}
+
+.plane-game-first-page__content {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 40vh;
+	position: relative;
+	padding: 0 16px;
+}
+
+.plane-game-first-page__animation {
+	border-radius: 50px;
+	width: 100%;
+	height: auto;
+	max-height: calc(100% - 100px);
+	display: block;
+}
+
+.plane-game-first-page__footer {
+	width: 100%;
+	position: absolute;
+	bottom: 100px;
+	left: 0;
+	z-index: 2;
+}
+
+.play-button {
+	width: 100%;
+	height: 56.8px;
+}

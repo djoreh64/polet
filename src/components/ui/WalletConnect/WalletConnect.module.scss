@@ -1,0 +1,56 @@
+.button {
+	margin-top: 8px;
+	padding: 10px 14px;
+
+	gap: 4px;
+
+	border-radius: 10px;
+	color: var(--color-blue-100);
+
+	svg {
+		transition:
+			fill 0.3s ease,
+			stroke 0.3s ease;
+	}
+
+	&:active {
+		svg {
+			path {
+				fill: var(--color-white-40);
+			}
+			stroke: var(--color-white-40);
+		}
+	}
+}
+
+.badge {
+	font-family: var(--font-rubik);
+	font-weight: 500;
+
+	font-size: 14px;
+	line-height: 1.2em;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+
+	position: relative;
+	margin-top: 8px;
+	padding: 10px 14px;
+
+	gap: 4px;
+
+	color: whitesmoke;
+
+	background: var(--color-grey-300);
+	color: var(--color-white);
+
+	border-radius: 10px;
+}
+
+.info {
+	margin-top: 4px;
+	color: var(--color-grey-100);
+	font-size: 12px;
+}

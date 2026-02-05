@@ -1,0 +1,65 @@
+.card {
+	padding: 10px 12px;
+	min-width: 240px;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	border-radius: 10px;
+	background: var(--color-grey-300);
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.top {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+}
+
+.avatar {
+	width: 24px;
+	height: 24px;
+	border-radius: 100%;
+	background: var(--color-grey-200);
+	flex-shrink: 0;
+	object-fit: cover;
+}
+
+.nickname {
+	font-family: var(--font-rubik);
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 1.2em;
+	color: var(--color-white);
+}
+
+.bottom {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+}
+
+.amount {
+	font-family: var(--font-rubik);
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.2em;
+	color: var(--color-white);
+}
+
+.currency {
+	flex-shrink: 0;
+}
+
+.detail {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+	padding: 4px 8px;
+	border-radius: 8px;
+	background: var(--color-grey-200);
+	font-family: var(--font-rubik);
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 1.2em;
+	color: var(--color-white);
+}

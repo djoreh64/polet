@@ -1,0 +1,57 @@
+.card {
+	padding: 36px 10px 10px 10px;
+
+	width: 100%;
+
+	display: inline-flex;
+	justify-content: center;
+
+	position: relative;
+	z-index: 2;
+
+	overflow: hidden;
+
+	border-radius: 10px;
+	border: 1px solid var(--color-rarity-common-40);
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+
+.reward {
+	font-family: var(--font-rubik);
+	font-weight: 700;
+
+	font-size: 28px;
+	line-height: 1.2em;
+
+	display: flex;
+	align-items: center;
+	gap: 4px;
+
+	color: var(--color-white);
+}
+
+.price {
+	padding: 6px 8px;
+
+	width: 100%;
+
+	font-family: var(--font-rubik);
+	font-weight: 500;
+
+	font-size: 14px;
+	line-height: 1.2em;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 2px;
+
+	border-radius: 10px;
+	background: var(--color-rarity-common-25);
+	color: var(--color-white);
+}

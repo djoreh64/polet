@@ -1,0 +1,49 @@
+.switcher {
+    position: relative;
+    display: flex;
+    background: var(--color-grey-300);
+    width: 80px;
+    height: 40px;
+    border-radius: 12px;
+    padding: 0 11px;
+  }
+  
+  .iconButton {
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background: transparent;
+  }
+  
+  .active {
+    svg {
+      filter: none;
+      opacity: 1;
+    }
+  }
+  
+  .inactive {
+    background: transparent;
+    svg {
+      filter: grayscale(100%) brightness(0.6);
+      opacity: 0.6;
+    }
+  }
+  
+  .salePlank {
+	position: absolute;
+	padding: 4px 6px;
+	left: 50%;
+    text-align: center;
+	top: -18px;
+  font-size: 12px;
+  transform: translate(-50%, 0);
+	border-radius: 12px;
+	background-color: #7F47F3;
+}

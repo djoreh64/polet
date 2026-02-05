@@ -1,0 +1,160 @@
+.head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img {
+    position: relative;
+
+    img {
+        width: 96px;
+        height: 96px;
+        display: block;
+    }
+
+    &::before {
+        content: "";
+        margin: auto;
+        width: 48px;
+        height: 48px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        border-radius: 100%;
+        background: #7f47f3;
+        filter: blur(32px);
+    }
+
+    .stars {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 180px;
+        height: 160px;
+        z-index: 1;
+        pointer-events: none;
+        user-select: none;
+    }
+}
+
+.title {
+    margin-top: 16px;
+    font-family: var(--font-rubik);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2em;
+    text-align: center;
+    color: #c0adfe;
+}
+
+.text {
+    margin-top: 8px;
+    max-width: 240px;
+    font-family: var(--font-rubik);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2em;
+    text-align: center;
+    color: #AAAAAA;
+}
+
+.body {
+    margin-top: 24px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.buttonsRow {
+    display: flex;
+    gap: 12px;
+    width: 100%;
+
+    > button {
+        flex: 1;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 4px;
+        padding: 12px 8px;
+    }
+}
+
+.button {
+    padding: 12px 20px;
+    gap: 4px;
+    border-radius: 12px;
+    justify-content: space-between;
+}
+
+.buttonContent {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.fee {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.7);
+
+    span {
+        font-weight: 600;
+    }
+}
+
+.free {
+    background: linear-gradient(90deg, #9D74FF 0%, #E387FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.confirm {
+    position: relative;
+    overflow: hidden;
+    border: 0;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        background: var(--color-primary-gradient);
+        border-radius: inherit;
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: 1px;
+        left: 1px;
+        right: 1px;
+        bottom: 1px;
+        z-index: -1;
+        background: var(--color-grey-300);
+        border-radius: 11px;
+    }
+}
+
+.cancelButton {
+    padding: 12px 20px;
+
+    gap: 4px;
+
+    border-radius: 12px;
+}

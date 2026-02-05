@@ -1,0 +1,25 @@
+.balance {
+	padding: 10px 12px;
+
+	display: flex;
+	align-items: center;
+	gap: 6px;
+
+	background: var(--color-grey-300);
+	border-radius: 10px;
+	box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.05);
+}
+
+.amount {
+	font-family: var(--font-rubik);
+	font-weight: 700;
+
+	font-size: 14px;
+	line-height: 1.2em;
+
+	color: var(--color-white);
+}
+
+.deposit {
+	color: var(--color-blue-100);
+}

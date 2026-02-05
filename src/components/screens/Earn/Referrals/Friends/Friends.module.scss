@@ -1,0 +1,14 @@
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.title {
+	font-family: var(--font-rubik);
+	font-weight: 700;
+
+	font-size: 20px;
+	line-height: 1.2em;
+
+	color: var(--color-grey-100);
+}

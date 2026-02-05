@@ -1,0 +1,39 @@
+.wins {
+	margin-top: 72px;
+
+	position: relative;
+}
+
+.title {
+	font-family: var(--font-rubik);
+	font-weight: 700;
+
+	font-size: 24px;
+	line-height: 1.2em;
+
+	color: var(--color-grey-100);
+}
+
+.list {
+	margin-top: 12px;
+
+	overflow: hidden;
+
+	min-height: 82px;
+}
+
+.container {
+	display: flex;
+	gap: 8px;
+}
+
+.slide {
+	flex: 0 0 auto;
+}
+
+.dragging {
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+}

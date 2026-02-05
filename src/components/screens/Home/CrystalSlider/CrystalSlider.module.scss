@@ -1,0 +1,70 @@
+.slider {
+	position: relative;
+}
+
+.embla {
+	overflow: hidden;
+	position: relative;
+}
+
+.emblaContainer {
+	display: flex;
+}
+
+.emblaSlide {
+	flex: 0 0 100%;
+	display: flex;
+	justify-content: center;
+
+	will-change: transform;
+	backface-visibility: hidden;
+	transform: translate3d(0, 0, 0);
+}
+
+.emblaImg {
+	width: 300px;
+	height: auto;
+}
+
+.prevButton,
+.nextButton {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 1;
+	background: none;
+	border: none;
+	cursor: pointer;
+	user-select: none;
+}
+
+.prevButton {
+	left: 10px;
+}
+
+.nextButton {
+	right: 10px;
+}
+
+.disabled {
+	pointer-events: none;
+}
+
+.caseWrapper {
+	position: relative;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+.emblaSlideOverlay {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 45%;
+	height: 80%;
+    border-radius: 999px;
+    z-index: 10;
+    transform: translate(-50%, -50%);
+}

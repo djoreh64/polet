@@ -1,0 +1,90 @@
+.card {
+	margin-top: 120px;
+    
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0.75;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+    border-radius: 9px;
+    background: #000;
+}
+
+.inner {
+	padding: 32px 12px;
+
+	width: 100%;
+
+	display: inline-flex;
+	justify-content: center;
+
+	position: relative;
+	z-index: 2;
+
+	border-radius: 10px;
+	@media screen and (orientation: landscape) and (max-width: 900px) {
+		padding: 12px 4px;
+	}
+}
+
+.background {
+	border-radius: 9px;
+	animation: 1s linear 1 fadeIn;
+}
+
+.shadow {
+	margin: auto;
+
+	width: 160px;
+	height: 160px;
+
+	position: absolute;
+	top: 0;
+	left: -20px;
+	bottom: 0;
+	right: -20px;
+	z-index: -1;
+
+	filter: blur(70px);
+	animation: shadowDance 5s cubic-bezier(.42, 0, .58, 1) infinite;
+}
+
+@keyframes shadowDance {
+
+    0% {
+        box-shadow: 0 0 100px 20px var(--shadow-color);
+        transform: scale(1) translateX(0);
+        opacity: 1;
+    }
+    50% {
+        box-shadow: 0 0 180px 35px var(--shadow-color);
+        transform: scale(1.1) translateX(10px);
+        opacity: 1;
+    }
+    100% {
+        box-shadow: 0 0 100px 20px var(--shadow-color);
+        transform: scale(1) translateX(0);
+        opacity: 1;
+    }
+}
+
+.img {
+	display: block;
+
+	width: 112px;
+	height: 112px;
+	@media screen and (orientation: landscape) and (max-width: 900px) {
+		width: 92px;
+		height: 92px;
+	}
+}

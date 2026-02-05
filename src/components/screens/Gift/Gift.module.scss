@@ -1,0 +1,31 @@
+.button {
+	position: fixed;
+	left: 50%;
+	transform: translate(-50%);
+	min-width: 142px;
+	bottom: 94px;
+}
+
+.buttonWrapper {
+    position: relative;
+	display: flex;
+    z-index: 3;
+	justify-content: center;
+	width: 100%;
+    animation: fadeIn 0.6s ease-out;
+    opacity: 1;
+}
+
+.container {
+	height: 100vh;
+	overflow: auto;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

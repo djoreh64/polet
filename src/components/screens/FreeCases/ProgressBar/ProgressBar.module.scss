@@ -1,0 +1,46 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .bar {
+    position: relative;
+    width: 100%;
+    height: 5px;
+    background-color: #333;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .fill {
+    height: 100%;
+    background:#c7a9ff;
+    border-radius: 8px;
+    transition: width 0.3s ease;
+  }
+  
+  .bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 4px;
+  }
+  
+  .start, .end {
+    font-size: 14px;
+    color: #ccc;
+  }
+  
+  .end {
+    color: #fff;
+  }
+  
+  .icon {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+  }
+  

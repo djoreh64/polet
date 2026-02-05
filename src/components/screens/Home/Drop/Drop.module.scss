@@ -1,0 +1,95 @@
+.drop {
+	width: 100%;
+
+	position: absolute;
+	bottom: 180px;
+	left: 0;
+	z-index: 10;
+}
+
+.head {
+	display: flex;
+	justify-content: center;
+
+	position: relative;
+	z-index: 3;
+}
+
+.button {
+	padding: 0;
+
+	font-family: var(--font-rubik);
+	font-weight: 700;
+
+	font-size: 18px;
+	line-height: 1.2em;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 2px;
+
+	border: 0;
+	background: transparent;
+	color: var(--color-grey-100);
+
+	transition: color 0.3s ease;
+
+	svg {
+		transition: transform 0.3s ease;
+	}
+
+	&:active {
+		color: var(--color-white);
+	}
+
+	&.active svg {
+		transform: rotate(180deg);
+	}
+}
+
+.body {
+	position: relative;
+	z-index: 10;
+	margin-top: 12px;
+
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.row {
+	display: grid;
+	grid-template-columns: repeat(4, minmax(60px, 1fr));
+	gap: 8px;
+
+	position: relative;
+	z-index: 10;
+
+	> div {
+		width: 100%;
+	}
+}
+
+.card {
+	width: 100%;
+	max-width: 95px;
+	min-height: 112px;
+
+	@media (max-width: 370px) {
+		img {
+			transform: scale(0.8);
+		}
+	}
+}
+
+.overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 1;
+
+	background: var(--color-black-80);
+}

@@ -1,0 +1,74 @@
+.task {
+	padding: 12px 0;
+
+	display: flex;
+	align-items: center;
+	gap: 12px;
+
+	&:not(:last-child) {
+		border-bottom: 1px solid var(--color-grey-200);
+	}
+}
+
+.icon {
+	padding: 12px;
+
+	border-radius: 10px;
+	background: var(--color-grey-400);
+	color: var(--color-white);
+}
+
+.title {
+	font-family: var(--font-rubik);
+	font-weight: 700;
+
+	font-size: 14px;
+	line-height: 1.2em;
+
+	color: var(--color-white);
+}
+
+.progress {
+	color: var(--color-grey-100);
+}
+
+.reward {
+	margin-top: 2px;
+
+	font-family: var(--font-rubik);
+	font-weight: 500;
+
+	font-size: 14px;
+	line-height: 1.2em;
+
+	display: flex;
+	align-items: center;
+	gap: 4px;
+
+	color: var(--color-white);
+}
+
+.buttonContainer {
+	display: flex;
+	flex: 1;
+}
+
+.button {
+	margin-left: auto;
+	padding: 8px 20px;
+
+	min-width: 80px;
+	max-height: 33px;
+
+	&.check {
+		background: var(--color-blue-100);
+	}
+
+	&.collect {
+		background: var(--color-blue-100);
+	}
+
+	&.completed {
+		color: var(--color-blue-100);
+	}
+}

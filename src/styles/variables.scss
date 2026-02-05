@@ -1,0 +1,53 @@
+:root {
+	--color-white: #ffffff;
+	--color-black: #000000;
+
+	--color-white-5: rgba(255, 255, 255, 0.05);
+	--color-white-10: rgba(255, 255, 255, 0.1);
+	--color-white-25: rgba(255, 255, 255, 0.25);
+	--color-white-40: rgba(255, 255, 255, 0.4);
+
+	--color-black-80: rgba(0, 0, 0, 0.8);
+
+	--color-grey-100: #aaaaaa; /* grey text */
+	--color-grey-200: #212121; /* Native/menu tabs stroke grey */
+	--color-grey-300: #171717; /* Custom/Menu tabs fill grey */
+	--color-grey-400: rgba(23, 23, 23, 0.3); /* item card black fill */
+
+	--color-blue-100: #2990ff; /* Native/link_color */
+	--color-blue-200: rgba(41, 144, 255, 0.15); /* Custom/secondary_fill */
+	--color-blue-300: #006adb;
+
+	--color-primary-gradient: radial-gradient(
+		ellipse 125% 95% at 8% 20%,
+		#315af3 0%,
+		#ae63ff 50%,
+		#f242ff 100%
+	); /* brand gradient primary */
+
+	--color-rarity-common: #ae63ff;
+	--color-rarity-ton: #969696;
+	--color-rarity-rare: #6385ff;
+	--color-rarity-epic: #f242ff;
+	--color-rarity-mythic: #ff6392;
+	--color-rarity-legendary: #ffdb49;
+	--color-rarity-divine: #ffffff;
+
+	--color-rarity-common-40: rgba(174, 99, 255, 0.4);
+	--color-rarity-ton-40: rgba(150, 150, 150, 0.4);
+	--color-rarity-rare-40: rgba(99, 133, 255, 0.4);
+	--color-rarity-epic-40: rgba(242, 66, 255, 0.4);
+	--color-rarity-mythic-40: rgba(255, 99, 146, 0.4);
+	--color-rarity-legendary-40: rgba(255, 219, 73, 0.4);
+	--color-rarity-divine-40: rgba(255, 255, 255, 0.4);
+
+	--color-rarity-common-25: rgba(174, 99, 255, 0.25);
+	--color-rarity-ton-25: rgba(150, 150, 150, 0.25);
+	--color-rarity-rare-25: rgba(99, 133, 255, 0.25);
+	--color-rarity-epic-25: rgba(242, 66, 255, 0.25);
+	--color-rarity-mythic-25: rgba(255, 99, 146, 0.25);
+	--color-rarity-legendary-25: rgba(255, 219, 73, 0.25);
+	--color-rarity-divine-25: rgba(255, 255, 255, 0.25);
+
+	--font-rubik: 'Rubik', sans-serif;
+}

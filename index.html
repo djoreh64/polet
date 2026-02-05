@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>Chance</title>
+
+		<script>
+			const initTelegram = () => {
+				window.Telegram.WebApp.expand()
+				window.Telegram.WebApp.disableVerticalSwipes()
+				window.Telegram.WebApp.setHeaderColor('#000')
+				window.Telegram.WebApp.setBackgroundColor('#000')
+			}
+		</script>
+		<script src="https://telegram.org/js/telegram-web-app.js" onload="initTelegram()"></script>
+	</head>
+	<body>
+		<div id="root"></div>
+		<script src="/env.js"></script>
+		<script type="module" src="/src/main.tsx"></script>
+	</body>
+</html>

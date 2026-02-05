@@ -1,0 +1,41 @@
+.open {
+	width: 100%;
+
+	position: absolute;
+	bottom: 100px;
+	left: 0;
+	z-index: 2;
+}
+
+.button {
+	width: 100%;
+
+    &.free {
+        width: 60%;
+        transform: translateX(-50%);
+        left: 50%;
+    }
+
+    &.disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+}
+
+.label {
+	padding: 6px 10px;
+
+	font-family: var(--font-rubik);
+	font-weight: 500;
+
+	font-size: 14px;
+	line-height: 1.2em;
+
+	display: flex;
+	align-items: center;
+	gap: 4px;
+
+	border-radius: 10px;
+	background: var(--color-grey-300);
+	color: var(--color-white);
+}

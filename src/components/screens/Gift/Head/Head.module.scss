@@ -1,0 +1,85 @@
+.head {
+	margin-top: 24px;
+
+	position: relative;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.rarity {
+	padding: 6px 8px;
+
+	font-family: var(--font-rubik);
+	font-weight: 500;
+
+	font-size: 20px;
+	line-height: 1.2em;
+
+	display: inline-flex;
+
+	border-radius: 10px;
+	text-transform: capitalize;
+}
+
+.title {
+	margin-top: 4px;
+
+	font-family: var(--font-rubik);
+	font-weight: 700;
+
+	font-size: 32px;
+	line-height: 1.2em;
+
+	color: var(--color-white);
+}
+
+.description {
+	margin-top: 4px;
+
+	font-family: var(--font-rubik);
+	font-weight: 500;
+
+	font-size: 12px;
+	line-height: 1.2em;
+
+	color: var(--color-grey-100);
+}
+
+.price {
+	overflow: hidden;
+
+	border: 1px solid var(--color-grey-200);
+	border-radius: 12px;
+}
+
+.value {
+	padding: 6px 20px;
+
+	font-family: var(--font-rubik);
+	font-weight: 500;
+
+	font-size: 24px;
+	line-height: 1.2em;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 4px;
+}
+
+.label {
+	padding: 8px 16px;
+
+	font-family: var(--font-rubik);
+	font-weight: 500;
+
+	font-size: 16px;
+	line-height: 1.2em;
+
+	background: var(--color-grey-300);
+	color: var(--color-white);
+}

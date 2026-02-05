@@ -1,0 +1,45 @@
+.tabs {
+	position: relative;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.head {
+	padding: 2px;
+
+	display: flex;
+	align-items: center;
+
+	border-radius: 24px;
+	background: var(--color-grey-300);
+}
+
+.button {
+	padding: 12px 20px;
+
+	width: 100%;
+
+	font-family: var(--font-rubik);
+	font-weight: 500;
+
+	font-size: 14px;
+	line-height: 1.2em;
+
+	border: 0;
+	border-radius: 24px;
+	background: var(--color-grey-300);
+	color: var(--color-grey-100);
+
+	transition:
+		color 0.3s ease,
+		background-color 0.3s ease;
+
+	&.active {
+		background: var(--color-grey-200);
+		color: var(--color-white);
+	}
+}

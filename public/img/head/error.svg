@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" fill="none" viewBox="0 0 96 96">
+  <g filter="url(#a)">
+    <path fill="#F46EFA" fill-rule="evenodd" d="M51.407 8.852a.852.852 0 1 1-1.704 0 .852.852 0 0 1 1.704 0Zm32.37 12.782a1.704 1.704 0 1 1-3.407 0 1.704 1.704 0 0 1 3.407 0Zm-62.184 64.75a.852.852 0 1 0 0-1.703.852.852 0 0 0 0 1.704Zm67.296-51.972a.852.852 0 1 1-1.704 0 .852.852 0 0 1 1.704 0Zm4.26 29.82a.852.852 0 1 0-.001-1.703.852.852 0 0 0 0 1.704ZM3.703 66.789a.852.852 0 1 1-1.704 0 .852.852 0 0 1 1.704 0Zm12.478-50.322a1.59 1.59 0 1 0 .001-3.181 1.59 1.59 0 0 0 0 3.18Zm58.862 64.381a2.385 2.385 0 1 1-4.77-.002 2.385 2.385 0 0 1 4.77.002ZM28.91 88a1.59 1.59 0 1 0 0-3.18 1.59 1.59 0 0 0 0 3.18Z" clip-rule="evenodd"/>
+  </g>
+  <path fill="url(#b)" stroke="#FF6392" stroke-width=".929" d="M31.205 23.195a5.664 5.664 0 0 0-8.01 8.01L39.989 48 23.195 64.795a5.664 5.664 0 0 0 8.01 8.01L48 56.01l16.795 16.795a5.664 5.664 0 0 0 8.01-8.01L56.01 48l16.795-16.795a5.664 5.664 0 0 0-8.01-8.01L48 39.989 31.205 23.195Z"/>
+  <defs>
+    <linearGradient id="b" x1="48" x2="48" y1="17.029" y2="74" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF6392"/>
+      <stop offset="1" stop-color="#FF6392" stop-opacity=".2"/>
+    </linearGradient>
+    <filter id="a" width="95.712" height="83.712" x=".144" y="6.144" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+      <feOffset/>
+      <feGaussianBlur stdDeviation=".464"/>
+      <feColorMatrix values="0 0 0 0 0.792157 0 0 0 0 0.188235 0 0 0 0 0.819608 0 0 0 1 0"/>
+      <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_712_5328"/>
+      <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+      <feOffset/>
+      <feGaussianBlur stdDeviation=".928"/>
+      <feColorMatrix values="0 0 0 0 0.792157 0 0 0 0 0.188235 0 0 0 0 0.819608 0 0 0 1 0"/>
+      <feBlend in2="effect1_dropShadow_712_5328" result="effect2_dropShadow_712_5328"/>
+      <feBlend in="SourceGraphic" in2="effect2_dropShadow_712_5328" result="shape"/>
+    </filter>
+  </defs>
+</svg>

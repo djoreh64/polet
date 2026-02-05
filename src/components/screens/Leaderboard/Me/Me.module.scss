@@ -1,0 +1,13 @@
+.me {
+	width: 100%;
+
+	position: fixed;
+	bottom: 100px;
+	left: 0;
+	z-index: 3;
+}
+
+.inner {
+	border-radius: 12px;
+	background: var(--color-grey-300);
+}

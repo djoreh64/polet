@@ -1,0 +1,282 @@
+{
+	"home": {
+		"wins": {
+			"title": "Wins",
+			"label": "Win"
+		},
+		"drop": {
+			"title": "What's inside"
+		},
+		"button": "Open for",
+		"free": "Open"
+	},
+	"freeCases": {
+		"title": "Free Crystal",
+		"description": "Collect flying peps, open a crystal for them and get prizes for free!",
+		"claimButton": "Claim",
+		"info": {
+			"title": "Demo mode",
+			"text": "Disable demo mode to open a free crystal"
+		}
+	},
+	"collection": {
+		"storage": {
+			"tab": "Collection",
+			"title": "Collection",
+			"actions": {
+				"sell": "Sell all",
+				"withdraw": "Withdraw"
+			},
+            "confirm": {
+                "sell": {
+                    "title": "Sell all",
+                    "text": "Are you sure you want to sell all gifts?"
+                },
+                "withdraw": {
+                    "title": "Withdraw all",
+                    "text": "Are you sure you want to withdraw all gifts?"
+                }
+			}
+		},
+		"actions": {
+			"tab": "Activity",
+			"title": "Activity",
+			"card": {
+				"win": "Win ",
+				"sale": "Sell ",
+				"withdraw": "Withdraw ",
+				"you_win": "You win"
+			}
+		}
+	},
+	"earn": {
+		"tasks": {
+			"tab": "Tasks",
+			"title": "Feel The Magic",
+			"text": "Complete tasks, get flying peps and open a free crystal!",
+			"task": {
+				"title": {
+					"friends": {
+						"start": "Invite ",
+						"end": " friends"
+					},
+					"SUBSCRIBE_CREATOR_TASK_TITLE": "Subscribe channel",
+					"BOOST_CREATOR_TASK_TITLE": "Boost channel",
+                    "JOIN_COMMUNITY_TASK_TITLE": "Join community",
+                    "JOIN_OWNER_TASK_TITLE": "Subscribe to gift news",
+                    "JOIN_PARTNER_TASK_TITLE": "Subscribe to gift news «GiftsRo»",
+                    "OPEN_CASINO_TASK_TITLE": "Visit partner website"
+				},
+				"button": {
+					"check": "Check",
+					"collect": "Collect"
+				}
+			}
+		},
+		"referrals": {
+			"tab": "Referrals",
+			"title": "Invite and Earn",
+			"text": "Invite friends and earn from their earnings",
+			"info": "The minimum withdrawal amount is 10 TON",
+			"withdraw": {
+				"submitted": {
+					"title": "Withdrawal request submitted",
+					"text": "Your request has been sent for moderation. It usually takes a little time — we’ll contact you soon."
+				}
+			},
+			"invite": {
+				"percent": {
+					"title": "Your Part",
+					"text": {
+						"start": "You receive ",
+						"end": " of deposits"
+					}
+				},
+				"level": "level",
+				"volume": "Volume",
+				"referrals": "Referrals",
+				"exclusive": "Exclusive",
+				"invite": {
+					"title": "Invited",
+					"text": {
+						"start": "You invited ",
+						"end": " people"
+					}
+				},
+				"button": "Invite"
+			},
+			"balance": {
+				"title": "Balance",
+				"button": "Withdraw",
+				"stats": {
+					"blocked_balance": "Blocked Balance",
+					"commissions_earned": "Total Income",
+					"chance_revenue": "Chance Revenue",
+					"friends_invited": "Friends Invited",
+					"opened_crystals": "Opened Crystals"
+				}
+			},
+			"friends": "Friends"
+		}
+	},
+	"leaderboard": {
+		"title": "Leaderboard",
+		"text": "Compete, climb the ranks, and earn rewards!",
+		"popup": {
+			"title": "Seasonal leaderboards",
+			"description": "See leaders of every season"
+		}
+	},
+	"donate": {
+		"title": "Buy Magic Dust",
+		"subtitle": "Enter the amount you want to deposit",
+		"button": "Buy for",
+		"back": "Back",
+		"balance": "Balance:",
+		"deposit": "Deposit",
+		"demo": "Demo",
+		"demo_title": "Enter demo mode?",
+		"demo_title_left": "Exit from demo mode?",
+		"demo_desk": "Your current balance and inventory will be temporarily unavailable.",
+		"demo_desk_left": "Your original balance and inventory will be available again.",
+		"demo_failed": "Failed to activate demo mode",
+		"max_ton_value": "Do not exceed 200 TON at a time.",
+		"deposit_stars": "Deposit with Stars",
+		"deposit_stars_desk": "At deposit by stars withdrawal of gifts is frozen for 3 days from the date of the last deposit. Further withdrawal will be available as usual.",
+		"cant_send_stars": "Failed to send stars",
+		"transaction_send": "Transaction sent",
+		"transaction_cant_send": "Failed to send transaction",
+		"accept": "Accept",
+		"connect_wallet": "Connect wallet",
+		"promocodes": {
+            "accept_promo": {
+                "first": "Promo code applied on",
+                "second": "to deposit"
+            },
+            "promo": "Promo",
+            "enter_promo": "Enter promotional code",
+            "success_promo": "Promo code successfully activated!",
+            "failed_promo": "Failed to activate promo code",
+            "promo_reset": "Promo code reset",
+            "PROMOCODE_NOT_FOUND": "Promo code not found",
+            "PROMOCODE_EXPIRED": "The promo code has expired",
+            "PROMOCODE_USAGE_REACHED": "Promo code activation limit reached",
+            "PROMOCODE_ALREADY_ACTIVE": "The promo code has already been activated",
+            "PROMOCODE_CANT_ACTIVATE": "Failed to activate promo code"
+		},
+		"withGift": {
+			"btn": "Deposit NFT Gifts",
+			"description": "Choose gifts you want to deposit and receive TONs on your Chance balance",
+			"bubble": "Transfer your gift to the bot"
+		},
+		"depositBtn": {
+			"ton": "Deposit with TON",
+			"stars": "Deposit with Stars"
+		},
+		"info": "Min deposit - 0.1 TON. Max - 200 TON."
+
+	},
+	"gift": {
+		"table": {
+			"model": "Model",
+			"backdrop": "Backdrop",
+			"symbol": "Symbol"
+		},
+		"actions": {
+			"sell": "Sell",
+			"withdraw": "Withdraw",
+			"collect": "Collect",
+			"activate": "Activate"
+		},
+		"withdrawTimer": {
+			"alertTitle": "Gift Locked",
+			"alertText": "Your gift was won with star balance. You will be able to withdraw it in",
+			"days": "days",
+			"hours": "hours",
+			"minutes": "minutes",
+			"seconds": "seconds",
+			"ok": "Okay"
+		},
+		"withdrawalsDisabled": {
+			"alertTitle": "Withdrawal Unavailable",
+			"alertText": "Gift withdrawals are temporarily unavailable. Please try again later."
+		},
+		"modal": {
+			"title": "Withdraw Gift",
+			"direct_text": "Deposited gifts can only be withdrawn to Telegram.",
+			"template_text": "You can withdraw your gift wherever you like.",
+			"withdrawMany": {
+				"title": "Withdraw Gifts",
+				"text": "You can withdraw your gifts wherever you like."
+			}
+		}
+	},
+	"confirmation": {
+		"confirm": "Confirm",
+		"cancel": "Cancel",
+		"sell": {
+			"title": "Selling",
+			"text": "Are you sure you want to sell?"
+		},
+		"withdraw": {
+			"title": "Withdraw",
+			"text": "Are you sure you want to withdraw?"
+		}
+	},
+	"info": {
+		"title": "Info",
+		"text": "Info",
+		"close": "Close",
+		"blockedBalance": {
+			"title": "Blocked Balance",
+			"text": "The held portion of your referral earnings from player deposits in Stars. \n\nEach portion of the balance is unlocked 21 days after the deposit date."
+        }
+	},
+	"error": {
+		"title": "Error",
+		"message": "Something went wrong"
+	},
+	"withdrawBubble": "Wait for the withdrawal in @portals",
+	"withdrawBubbleTelegram": "Wait for the withdrawal",
+	"walletConnect": {
+		"success": "Wallet connected",
+		"binding": "Connecting...",
+		"error": "Error"
+	},
+	"tonGift": {
+		"header1": "Congrats! You win",
+		"header2": "TON!",
+		"text1": "TON’s on your balance. Maybe this is just the warm-up?",
+		"text2": "TON’s on your balance. Maybe this is just the warm-up?",
+		"text3": "TON landed, but the thrill isn’t slowing down. Ready to see what’s next?",
+		"text4": "TON dropped in — looks like the crystal just gave you a reason to open it again.",
+		"text5": "Jackpot is for next time — for now, here’s TON to keep things interesting. Keep going!"
+	},
+	"promoGift": {
+		"header1": "Congrats! You win a promo code for a",
+		"header2": "bonus on your next deposit!",
+		"expires_at": "Promo code expires in 48 hours."
+	},
+	"maintenance": {
+		"title": "Maintenance in progress",
+		"description": "We need a little time\n to get the app back.",
+		"subtitle": "Please come back later.",
+		"button": "Ok"
+	},
+	"skip": "Tap to skip",
+	"banner": {
+		"title": "We have a channel",
+		"channel": "@chance_io",
+		"text": "Not to miss out on updates, giveaways and news",
+		"subscribe": "Subscribe"
+	},	
+	"sale": {
+		"free": "free"
+	},
+	"planeGameFirstPage": {
+		"play": "Play",
+		"wins": {
+			"title": "Wins"
+		}
+	}
+}

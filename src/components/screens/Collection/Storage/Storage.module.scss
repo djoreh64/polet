@@ -1,0 +1,50 @@
+.storage {
+	padding-bottom: 180px;
+}
+
+.head {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.title {
+	font-family: var(--font-rubik);
+	font-weight: 700;
+
+	font-size: 24px;
+	line-height: 1.2em;
+
+	color: var(--color-grey-100);
+}
+
+.sort {
+	padding: 8px 12px;
+
+	gap: 6px;
+}
+
+.body {
+	margin-top: 16px;
+
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 8px;
+
+	img {
+		width: 88px;
+		height: 88px;
+		@media (max-width: 370px) {
+			width: 66px;
+			height: 66px;
+		}
+	}
+}
+
+.link {
+	display: block;
+}
+
+.card {
+	width: 100%;
+}

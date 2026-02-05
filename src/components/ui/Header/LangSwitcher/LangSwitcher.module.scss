@@ -1,0 +1,13 @@
+.button {
+	padding: 8px 20px;
+
+	gap: 6px;
+
+	border-radius: 10px;
+	border: 0;
+	color: var(--color-grey-100);
+
+	&:active {
+		background: var(--color-grey-300);
+	}
+}

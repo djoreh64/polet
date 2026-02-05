@@ -1,0 +1,98 @@
+.purchase {
+	margin-top: 5vh;
+
+	position: relative;
+}
+
+.buy {
+	padding: 20px;
+
+	display: flex;
+	flex-direction: column;
+	gap: 18px;
+
+	border-radius: 12px;
+	background: var(--color-grey-300);
+}
+
+.field {
+	padding: 12px;
+
+	display: flex;
+	align-items: center;
+	gap: 8px;
+
+	border-radius: 12px;
+	background: var(--color-grey-200);
+}
+
+.icon {
+	min-width: 20px;
+}
+
+.input {
+	width: 100%;
+
+	font-family: var(--font-rubik);
+	font-weight: 500;
+
+	font-size: 20px;
+	line-height: 1.2em;
+
+	border: 0;
+	background: transparent;
+	color: var(--color-white);
+
+	&::placeholder {
+		color: var(--color-grey-100);
+	}
+
+	&:focus {
+		outline: 0;
+	}
+}
+
+.switcher {
+	padding: 8px 20px;
+
+	gap: 6px;
+
+	border-radius: 10px;
+	border: 1px solid var(--color-white-10);
+}
+
+.button {
+	width: 100%;
+}
+
+.label {
+	padding: 6px 10px;
+
+	font-family: var(--font-rubik);
+	font-weight: 500;
+
+	font-size: 14px;
+	line-height: 1.2em;
+
+	display: flex;
+	align-items: center;
+	gap: 4px;
+
+	border-radius: 10px;
+	background: var(--color-grey-200);
+	color: var(--color-white);
+}
+
+.options {
+	margin-top: 12px;
+
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 8px;
+}
+
+.option {
+	width: 100%;
+
+	cursor: pointer;
+}

@@ -1,0 +1,52 @@
+.card {
+	padding: 10px 24px 10px 10px;
+
+	min-width: 240px;
+
+	display: flex;
+	gap: 8px;
+
+	border-radius: 10px;
+	background: var(--color-grey-300);
+}
+
+.user {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+}
+
+.avatar {
+	width: 20px;
+	height: 20px;
+
+	display: block;
+
+	border-radius: 100%;
+}
+
+.username {
+	font-family: var(--font-rubik);
+	font-weight: 500;
+
+	font-size: 12px;
+	line-height: 1.2em;
+
+	color: var(--color-white);
+}
+
+.text {
+	margin-top: 4px;
+
+	font-family: var(--font-rubik);
+	font-weight: 500;
+
+	font-size: 12px;
+	line-height: 1.2em;
+
+	color: var(--color-grey-100);
+
+	span {
+		font-weight: 700;
+	}
+}

@@ -1,0 +1,54 @@
+@use './variables.scss';
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500;700&display=swap');
+
+html,
+body {
+	margin: 0;
+
+	color: var(--color-white);
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	touch-action: none;
+	font-family: var(--font-rubik);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+}
+
+p {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+button {
+	cursor: pointer;
+}
+
+button:focus {
+	outline: 0;
+}
+
+svg {
+	display: block;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+.layout--plane-game-first-page [data-navbar]::before {
+	height: 80px;
+}

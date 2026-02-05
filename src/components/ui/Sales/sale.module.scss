@@ -1,0 +1,28 @@
+.sale_container {
+    background: radial-gradient(circle at 35% 50%, #315af3, #ae63ff 51%, #f242ff);
+    width: 92px;
+    z-index: 20;
+    height: 22px;
+    border-radius: 8px;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 6px 0px rgba(150, 0, 204, 1);
+}
+
+.sub_sale_container {
+    margin-top: 1px;
+    background-color: black;
+    z-index: 29;
+    width: 90px;
+    height: 20px;
+    position: absolute;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.text {
+    padding-left: 4px;
+}

@@ -1,0 +1,21 @@
+.link {
+	padding: 20px 24px;
+
+	display: flex;
+	align-items: center;
+
+	border-radius: 32px;
+	background: var(--color-grey-300);
+	color: var(--color-grey-100);
+
+	transition: background-color 0.3s ease;
+
+	&.active {
+		color: var(--color-white);
+		background: var(--color-grey-200);
+	}
+}
+
+.icon {
+	transition: color 0.3s ease;
+}

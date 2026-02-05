@@ -1,0 +1,95 @@
+.invite {
+	margin-top: 16px;
+}
+
+.inner {
+	border-radius: 12px;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+
+.info {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+
+.icon {
+	color: var(--color-blue-100);
+}
+
+.title {
+	font-family: var(--font-rubik);
+	font-weight: 500;
+
+	font-size: 16px;
+	line-height: 1.2em;
+
+	color: var(--color-white);
+}
+
+.text {
+	margin-top: 2px;
+
+	font-family: var(--font-rubik);
+	font-weight: 500;
+
+	font-size: 14px;
+	line-height: 1.2em;
+
+	color: var(--color-grey-100);
+
+	span {
+		font-weight: 700;
+
+		color: var(--color-white);
+	}
+}
+
+.carousel {
+	position: relative;
+	margin-bottom: 8px;
+}
+
+.embla {
+	overflow: hidden;
+	position: relative;
+}
+
+.emblaContainer {
+	display: flex;
+}
+
+.emblaSlide {
+	flex: 0 0 calc(100% - 16px);
+	display: flex;
+	justify-content: start;
+	padding: 0 16px 0 0;
+
+	will-change: transform;
+	backface-visibility: hidden;
+	transform: translate3d(0, 0, 0);
+}
+
+.levels {
+	display: flex;
+	gap: 12px;
+	overflow-x: scroll;
+	padding-bottom: 8px;
+	scrollbar-width: none; /* Firefox */
+	-ms-overflow-style: none; /* IE 10+ */
+}
+
+.levels::-webkit-scrollbar {
+	display: none; /* Chrome, Safari, Edge */
+}
+
+.button {
+	margin-top: 16px;
+
+	width: 100%;
+}
